@@ -1,0 +1,63 @@
+/*utils*/
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/reset';
+
+/*utils*/
+
+// base (section-container)
+
+@import './components/studio/base/base';
+
+// base (section-container)
+
+// header
+
+@import './components/studio/header/header-base';
+@import './components/studio/header/header';
+
+//hero
+
+@import './components/studio/hero/hero-base';
+@import './components/studio/hero/hero';
+@import './components/studio/hero/modal-windows';
+@import './components/studio/hero/modal-form';
+
+//hero
+
+//advantages
+
+@import './components/studio/advantages/advantages';
+
+//advantages
+
+//specific
+
+@import './components/studio/specific/specific';
+
+//specific
+
+//staff
+
+@import './components/studio/stuff/stuff';
+@import './components/studio/stuff/employee';
+@import './components/studio/stuff/social';
+
+//regular-customers
+
+@import './components/studio/regular-customers/regular-customers';
+
+//footer
+
+@import './components/studio/footer/footer-basic';
+@import './components/studio/footer/footer-logo';
+@import './components/studio/footer/footer-contact';
+@import './components/studio/footer/footer-social';
+@import './components/studio/footer/footer-form';
+
+//portfolio
+
+@import './components/portfolio/filters/filters';
+@import './components/portfolio/cards/cards';
+@import './components/portfolio/cards/owerlay';
