@@ -1,63 +1,66 @@
-/*utils*/
-
+//
+// utils===========================================utils
+//
+@import './utils/fonts';
 @import './utils/variables';
 @import './utils/visually-hidden';
 @import './utils/reset';
 
-/*utils*/
+//
+// base (section-container)========================base
+//
+@import './components/base';
 
-// base (section-container)
+//
+// header==========================================header
+//
+@import './components/studio/1_header/header-base';
+@import './components/studio/1_header/header-nav';
+@import './components/studio/1_header/header-list';
 
-@import './components/studio/base/base';
+//
+// hero============================================hero
+//
+@import './components/studio/2_hero/hero-base';
+@import './components/studio/2_hero/hero';
+@import './components/studio/2_hero/modal-windows';
+@import './components/studio/2_hero/modal-form/modal-form';
+@import './components/studio/2_hero/modal-form/checkbox';
 
-// base (section-container)
+//
+//advantages=====================================advantages
+//
+@import './components/studio/3_advantages/advantages';
 
-// header
+//
+//specific========================================specific
+//
+@import './components/studio/4_specific/specific';
 
-@import './components/studio/header/header-base';
-@import './components/studio/header/header';
+//
+//staff===========================================staff
+//
+@import './components/studio/5_stuff/stuff';
+@import './components/studio/5_stuff/employee';
+@import './components/studio/5_stuff/social';
 
-//hero
+//
+//regular-customers=================================regular-customers
+//
+@import './components/studio/6_regular-customers/regular-customers';
 
-@import './components/studio/hero/hero-base';
-@import './components/studio/hero/hero';
-@import './components/studio/hero/modal-windows';
-@import './components/studio/hero/modal-form';
+//
+//footer===============================================footer
+//
+@import './components/studio/7_footer/footer-base';
+@import './components/studio/7_footer/footer-logo';
+@import './components/studio/7_footer/footer-contact';
+@import './components/studio/7_footer/footer-social';
+@import './components/studio/7_footer/footer-form';
 
-//hero
-
-//advantages
-
-@import './components/studio/advantages/advantages';
-
-//advantages
-
-//specific
-
-@import './components/studio/specific/specific';
-
-//specific
-
-//staff
-
-@import './components/studio/stuff/stuff';
-@import './components/studio/stuff/employee';
-@import './components/studio/stuff/social';
-
-//regular-customers
-
-@import './components/studio/regular-customers/regular-customers';
-
-//footer
-
-@import './components/studio/footer/footer-basic';
-@import './components/studio/footer/footer-logo';
-@import './components/studio/footer/footer-contact';
-@import './components/studio/footer/footer-social';
-@import './components/studio/footer/footer-form';
-
-//portfolio
-
-@import './components/portfolio/filters/filters';
-@import './components/portfolio/cards/cards';
-@import './components/portfolio/cards/owerlay';
+//
+//portfolio======================================portfolio
+//
+@import './components/portfolio/1_filters/filters';
+@import './components/portfolio/2_cards/cards';
+@import './components/portfolio/2_cards/owerlay';

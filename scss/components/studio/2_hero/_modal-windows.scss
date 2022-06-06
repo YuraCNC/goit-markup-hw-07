@@ -53,11 +53,10 @@
    justify-content: center;
 }
 
-.close-modal-btn:hover .icon-close,
-.close-modal-btn:focus .icon-close {
-   fill: var(--accent-color);
-}
-
 .icon-close {
    transition: var(--modal-transition);
+   .close-modal-btn:hover &,
+   .close-modal-btn:focus & {
+      fill: var(--accent-color);
+   }
 }

@@ -12,15 +12,11 @@
    padding: 6px 22px;
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
-   font-size: 16px;
    line-height: 1.62;
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--mine-color);
    background: #f5f4fa;
-   border-radius: 4px;
-   border-style: none;
-   cursor: pointer;
 
    transition: background-color 250ms var(--transition-timing-function),
       color 250ms var(--transition-timing-function),
